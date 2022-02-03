@@ -17,20 +17,31 @@ body {
   font-size: 0.8em;
 }
 
+h1,
+h2 {
+  font-size: 2em;
+  padding: 0.1em;
+}
+
+p {
+  font-size: 1em;
+  padding: 0 0.2em;
+}
+
 .container {
   width: 100%;
   height: 100%;
 
   margin: 0 auto;
-  padding: 3em 0.1em;
+  padding: 1em 0.1em;
 }
 
 .grid {
   /* border: 2px solid teal; */
 
   display: grid;
-  grid-template-columns: repeat(18, auto);
-  grid-template-rows: repeat(18, auto);
+  grid-template-columns: repeat(12, auto);
+  grid-template-rows: repeat(13, auto);
   grid-gap: 0.1em;
   grid-auto-flow: dense;
 }
@@ -46,24 +57,29 @@ body {
 }
 
 .tech01 {
-  grid-column: 1 / span 18;
+  grid-column: 1 / span 12;
   grid-row: 1 / span 1;
 }
 .tech02 {
   grid-column: 1 / span 6;
   grid-row: 2 / span 1;
+
+  background-color: rgb(84, 124, 177);
 }
 .tech03 {
   grid-column: 7 / span 6;
   grid-row: 2 / span 1;
+  background-color: rgb(84, 124, 177);
 }
 .tech04 {
   grid-column: 13 / span 6;
   grid-row: 2 / span 1;
 }
 .tech05 {
-  grid-column: 1 / span 6;
+  grid-column: 1 / span 12;
   grid-row: 3 / span 1;
+
+  background-color: tomato;
 }
 .tech055 {
   grid-column: 7 / span 6;
@@ -72,6 +88,8 @@ body {
 .tech0555 {
   grid-column: 1 / span 9;
   grid-row: 6 / span 1;
+
+  background-color: tomato;
 }
 .tech06 {
   grid-column: 13 / span 3;
@@ -96,6 +114,8 @@ body {
 .tech11 {
   grid-column: 10 / span 3;
   grid-row: 4 / span 1;
+
+  background-color: tomato;
 }
 .tech12 {
   grid-column: 1 / span 9;
