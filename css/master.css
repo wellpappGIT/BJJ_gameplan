@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+}
+
+body {
+  margin: 0 
+  padding: 0;
+
+  background-color: tomato;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+
+  margin: 0 auto;
+}
+
+.grid {
+  border: 2px solid teal;
+
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-gap: 3px;
+  
+}
+
+.tech01 {
+  background-color: rgb(123, 179, 253);
+  height: 50px;
+  width: 50px;
+}
+.tech02 {
+  background-color: rgb(106, 154, 218);
+  height: 50px;
+  width: 50px;
+}
+.tech03 {
+  background-color: rgb(92, 133, 187);
+  height: 50px;
+  width: 50px;
+}
+.tech04 {
+  background-color: rgb(77, 111, 156);
+  height: 50px;
+  width: 50px;
+}
+.tech05 {
+  background-color: rgb(62, 92, 131);
+  height: 50px;
+  width: 50px;
+}
+.tech06 {
+  background-color: rgb(252, 119, 207);
+  height: 50px;
+  width: 50px;
+}
+.tech07 {
+  background-color: rgb(219, 103, 180);
+  height: 50px;
+  width: 50px;
+}
+.tech08 {
+  background-color: rgb(182, 84, 149);
+  height: 50px;
+  width: 50px;
+}
+.tech09 {
+  background-color: rgb(150, 69, 123);
+  height: 50px;
+  width: 50px;
+}
+.tech10 {
+  background-color: rgb(128, 58, 104);
+  height: 50px;
+  width: 50px;
+}
