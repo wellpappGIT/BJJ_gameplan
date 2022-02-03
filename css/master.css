@@ -28,12 +28,39 @@ p {
   padding: 0 0.2em;
 }
 
+.title {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.title a {
+  text-decoration: none;
+  font-weight: 800;
+  padding-left: 0.1em;
+  padding-right: 1em;
+}
+
 .container {
-  width: 100%;
+  width: 70%;
   height: 100%;
 
   margin: 0 auto;
   padding: 1em 0.1em;
+}
+
+@media (max-width: 910px) {
+  .container {
+    width: 100%;
+    height: 100%;
+
+    margin: 0 auto;
+    padding: 1em 0.1em;
+  }
+
+  .title {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 .grid {
